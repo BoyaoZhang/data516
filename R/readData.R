@@ -19,4 +19,6 @@ readData = function(file) {
       output = readr::read_csv(file)
     else
       output = read.csv(file)
+
+  return(output)
 }
